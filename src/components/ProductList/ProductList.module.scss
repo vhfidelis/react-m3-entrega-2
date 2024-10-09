@@ -1,0 +1,24 @@
+.container {
+	margin: 1.75rem auto;
+	width: 90vw;
+	max-width: 85.5rem;
+	display: flex;
+	gap: 1.25rem;
+	height: 400px;
+	overflow: scroll;
+	transition: width ease-out 700ms;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+@media screen and (min-width: 720px) {
+	.container {
+		flex-wrap: wrap;
+		height: fit-content;
+		overflow-x: visible;
+		gap: 3.5rem;
+		overflow: visible;
+	}
+}

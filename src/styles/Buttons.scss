@@ -1,0 +1,40 @@
+@import url(./GlobalStyles.scss);
+
+.btn {
+	display: inline-flex;
+	height: 60px;
+	padding: 0px 20px;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+	font-weight: 600;
+	flex-shrink: 0;
+	border-radius: 8px;
+	background: #bdbdbd;
+	border: none;
+	color: var(--text-color);
+}
+
+.btn:hover {
+	background: #27ae60;
+}
+
+.btn__medium {
+	display: inline-flex;
+	height: 40px;
+	padding: 0px 20px;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+	border-radius: 8px;
+	background: #bdbdbd;
+	border: none;
+	width: fit-content;
+	color: var(--text-color);
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.btn__medium:hover {
+	background: #27ae60;
+}

@@ -1,0 +1,73 @@
+@import url(./GlobalStyles.scss);
+
+.heading1 {
+	color: var(--gray-600);
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 34px;
+}
+
+.heading2 {
+	color: var(--gray-600);
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 24px;
+}
+
+.heading3 {
+	color: var(--grey-600);
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+}
+
+.heading4 {
+	color: var(--grey-600);
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+}
+
+.headline {
+	color: var(--gray-300);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.body {
+	color: var(--primary-color);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.body__600 {
+	color: var(--gray-300);
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 24px;
+}
+
+.black {
+	color: var(--gray-600);
+}
+
+.caption {
+	color: var(--gray-300);
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 16px;
+}
+
+.loading {
+	display: flex;
+	width: 100vw;
+	height: 70vh;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
+	font-weight: 600;
+	color: rgba(0, 0, 0, 0.5);
+}
